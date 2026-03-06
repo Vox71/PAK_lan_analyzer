@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Название приложения -->
+    <string name="app_name">Orange Tracker</string>
+    <string name="app_subtitle">Анализатор трафика и управление сетью</string>
+    <string name="app_logo">Логотип приложения</string>
+    <string name="app_version">Версия 1.0.0</string>
+
+    <!-- Общие строки -->
+    <string name="back">Назад</string>
+    <string name="refresh">Обновить</string>
+    <string name="settings">Настройки</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="close">Закрыть</string>
+    <string name="retry">Повторить</string>
+    <string name="loading">Загрузка...</string>
+    <string name="error">Ошибка</string>
+    <string name="success">Успешно</string>
+    <string name="warning">Внимание</string>
+    <string name="all">Все</string>
+    <string name="edit">Редактировать</string>
+    <string name="more_options">Дополнительные опции</string>
+    <string name="status">Статус</string>
+    <string name="gb">ГБ</string>
+
+    <!-- Экран подключения -->
+    <string name="searching_device">Поиск устройства</string>
+    <string name="searching_status">Поиск Orange Pi в локальной сети...</string>
+    <string name="device_found">Устройство найдено!</string>
+    <string name="device_not_found">Устройство не найдено</string>
+    <string name="connect_to_device">Подключиться к устройству</string>
+    <string name="try_again">Попробовать снова</string>
+    <string name="manual_connection">Ручное подключение</string>
+    <string name="ip_address_hint">Введите IP-адрес устройства</string>
+    <string name="connect_manual">Подключиться вручную</string>
+    <string name="connection_error">Не удалось подключиться к устройству</string>
+    <string name="check_connection">Проверьте подключение и попробуйте снова</string>
+
+    <!-- Главный экран (Dashboard) -->
+    <string name="current_speed">Текущая скорость</string>
+    <string name="download">Скачивание</string>
+    <string name="upload">Отправка</string>
+    <string name="mbps">Мбит/с</string>
+    <string name="kbps">Кбит/с</string>
+    <string name="traffic_graph">График трафика</string>
+    <string name="total_traffic">Общий трафик</string>
+    <string name="gb_download">ГБ скачано</string>
+    <string name="gb_upload">ГБ отправлено</string>
+    <string name="devices">Устройства</string>
+    <string name="total_connected">всего подключено</string>
+    <string name="active_now">активны сейчас</string>
+    <string name="system_info">Информация о системе</string>
+    <string name="temperature">Температура</string>
+    <string name="cpu_usage">CPU</string>
+    <string name="uptime">Время работы</string>
+    <string name="device_model">Модель</string>
+    <string name="view_all_devices">Все устройства</string>
+
+    <!-- Экран устройств -->
+    <string name="search_devices">Поиск устройств...</string>
+    <string name="active">Активные</string>
+    <string name="blocked">Заблокированные</string>
+    <string name="limited">С ограничением</string>
+    <string name="all_devices">Все устройства</string>
+    <string name="no_devices_found">Устройства не найдены</string>
+    <string name="no_devices_description">В сети пока нет активных устройств или они отключены</string>
+    <string name="scan_again">Сканировать снова</string>
+    <string name="device_details">Детали устройства</string>
+    <string name="device_info">Информация об устройстве</string>
+    <string name="mac_address">MAC-адрес</string>
+    <string name="ip_address">IP-адрес</string>
+    <string name="vendor">Производитель</string>
+    <string name="last_seen">Последняя активность</string>
+    <string name="seconds_ago">сек назад</string>
+    <string name="minutes_ago">мин назад</string>
+    <string name="hours_ago">ч назад</string>
+    <string name="just_now">только что</string>
+
+    <!-- Детали устройства -->
+    <string name="current_traffic">Текущий трафик</string>
+    <string name="total_device_traffic">Общий трафик устройства</string>
+    <string name="block_device">ЗАБЛОКИРОВАТЬ</string>
+    <string name="unblock_device">РАЗБЛОКИРОВАТЬ</string>
+    <string name="speed_limit">Ограничение скорости</string>
+    <string name="apply_limit">ПРИМЕНИТЬ ЛИМИТ</string>
+    <string name="remove_limit">Снять ограничение</string>
+    <string name="limit_speed">Лимит скорости</string>
+    <string name="enter_speed_limit">Введите скорость (Мбит/с)</string>
+    <string name="block_confirmation">Заблокировать устройство?</string>
+    <string name="block_warning">Устройство потеряет доступ к интернету</string>
+    <string name="unblock_confirmation">Разблокировать устройство?</string>
+    <string name="unblock_warning">Доступ в интернет будет восстановлен</string>
+
+    <!-- Статистика -->
+    <string name="statistics">Статистика</string>
+    <string name="traffic_statistics">Статистика трафика</string>
+    <string name="period">Период</string>
+    <string name="today">Сегодня</string>
+    <string name="week">Неделя</string>
+    <string name="month">Месяц</string>
+    <string name="year">Год</string>
+    <string name="custom">Свой период</string>
+    <string name="total_period">Всего за период</string>
+    <string name="daily_average">Среднее в день</string>
+    <string name="peak_traffic">Пиковый трафик</string>
+    <string name="top_devices">Топ устройств по трафику</string>
+    <string name="no_data">Нет данных за выбранный период</string>
+
+    <!-- Настройки -->
+    <string name="connection_settings">Настройки подключения</string>
+    <string name="current_device">Текущее устройство</string>
+    <string name="connected_to">Подключено к</string>
+    <string name="reconnect">Переподключиться</string>
+    <string name="disconnect">Отключиться</string>
+    <string name="auto_connect">Автоподключение</string>
+    <string name="auto_connect_summary">Автоматически подключаться к последнему устройству</string>
+    <string name="notifications">Уведомления</string>
+    <string name="traffic_alerts">Оповещения о трафике</string>
+    <string name="traffic_alerts_summary">Уведомлять при высоком трафике</string>
+    <string name="dark_theme">Темная тема</string>
+    <string name="dark_theme_summary">Использовать темную тему оформления</string>
+    <string name="update_interval">Интервал обновления</string>
+    <string name="interval_1s">1 секунда</string>
+    <string name="interval_3s">3 секунды</string>
+    <string name="interval_5s">5 секунд</string>
+    <string name="interval_10s">10 секунд</string>
+    <string name="units">Единицы измерения</string>
+    <string name="units_mbps">Мбит/с</string>
+    <string name="units_mbs">МБ/с</string>
+    <string name="advanced">Дополнительно</string>
+    <string name="reboot_device">Перезагрузить устройство</string>
+    <string name="reboot_confirmation">Перезагрузить Orange Pi?</string>
+    <string name="reboot_warning">Устройство будет недоступно около минуты</string>
+    <string name="rebooting">Перезагрузка...</string>
+    <string name="factory_reset">Сброс настроек</string>
+    <string name="factory_reset_confirmation">Сбросить все настройки?</string>
+    <string name="factory_reset_warning">Это действие нельзя отменить</string>
+    <string name="about">О приложении</string>
+
+    <!-- Статусы устройств -->
+    <string name="status_active">Активен</string>
+    <string name="status_blocked">Заблокирован</string>
+    <string name="status_limited">Лимит</string>
+    <string name="status_offline">Не в сети</string>
+
+    <!-- Сообщения об ошибках -->
+    <string name="error_connection">Ошибка подключения</string>
+    <string name="error_timeout">Превышено время ожидания</string>
+    <string name="error_no_device">Устройство не найдено</string>
+    <string name="error_invalid_ip">Неверный IP-адрес</string>
+    <string name="error_network">Ошибка сети</string>
+    <string name="error_unknown">Неизвестная ошибка</string>
+
+    <!-- Диалоги -->
+    <string name="reboot_title">Перезагрузка устройства</string>
+    <string name="reboot_message">Вы уверены, что хотите перезагрузить Orange Pi?</string>
+    <string name="block_title">Блокировка устройства</string>
+    <string name="block_message">Заблокировать это устройство? Оно потеряет доступ к интернету.</string>
+    <string name="unblock_title">Разблокировка устройства</string>
+    <string name="unblock_message">Разблокировать устройство? Доступ к интернету будет восстановлен.</string>
+    <string name="limit_title">Ограничение скорости</string>
+    <string name="limit_message">Установите максимальную скорость для устройства</string>
+    <string name="disconnect_title">Отключение</string>
+    <string name="disconnect_message">Отключиться от устройства?</string>
+
+    <!-- Единицы измерения -->
+    <string name="bytes">Б</string>
+    <string name="kilobytes">КБ</string>
+    <string name="megabytes">МБ</string>
+    <string name="gigabytes">ГБ</string>
+    <string name="terabytes">ТБ</string>
+    <string name="bits_per_sec">бит/с</string>
+    <string name="kilobits_per_sec">Кбит/с</string>
+    <string name="megabits_per_sec">Мбит/с</string>
+    <string name="gigabits_per_sec">Гбит/с</string>
+
+    <!-- Временные метки -->
+    <string name="today_at">сегодня в</string>
+    <string name="yesterday_at">вчера в</string>
+    <string name="at">в</string>
+
+    <!-- Подсказки -->
+    <string name="hint_swipe_to_refresh">Потяните вниз для обновления</string>
+    <string name="hint_tap_for_details">Нажмите для просмотра деталей</string>
+    <string name="hint_long_press_for_menu">Долгое нажатие для меню</string>
+
+    <!-- WebSocket статусы -->
+    <string name="websocket_connected">Подключено к потоку данных</string>
+    <string name="websocket_disconnected">Отключено от потока данных</string>
+    <string name="websocket_error">Ошибка потока данных</string>
+    <string name="reconnecting">Переподключение...</string>
+
+    <!-- Дни недели -->
+    <string name="monday">Пн</string>
+    <string name="tuesday">Вт</string>
+    <string name="wednesday">Ср</string>
+    <string name="thursday">Чт</string>
+    <string name="friday">Пт</string>
+    <string name="saturday">Сб</string>
+    <string name="sunday">Вс</string>
+
+    <!-- Месяцы -->
+    <string name="january">Янв</string>
+    <string name="february">Фев</string>
+    <string name="march">Мар</string>
+    <string name="april">Апр</string>
+    <string name="may">Май</string>
+    <string name="june">Июн</string>
+    <string name="july">Июл</string>
+    <string name="august">Авг</string>
+    <string name="september">Сен</string>
+    <string name="october">Окт</string>
+    <string name="november">Ноя</string>
+    <string name="december">Дек</string>
+
+    <!-- Множественные числа (plurals) -->
+    <plurals name="devices_count">
+        <item quantity="one">%d устройство</item>
+        <item quantity="few">%d устройства</item>
+        <item quantity="many">%d устройств</item>
+        <item quantity="other">%d устройств</item>
+    </plurals>
+
+    <plurals name="active_count">
+        <item quantity="one">%d активное</item>
+        <item quantity="few">%d активных</item>
+        <item quantity="many">%d активных</item>
+        <item quantity="other">%d активных</item>
+    </plurals>
+
+    <plurals name="blocked_count">
+        <item quantity="one">%d заблокировано</item>
+        <item quantity="few">%d заблокировано</item>
+        <item quantity="many">%d заблокировано</item>
+        <item quantity="other">%d заблокировано</item>
+    </plurals>
+</resources>
