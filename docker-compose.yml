@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  tcpdump:
+    image: alpine:3.19
+    container_name: tcpdump
+    restart: unless-stopped
+    network_mode: host
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    volumes:
+      - ./data:/data
+    command: >
+      sh -c "
+      apk add --no-cache tcpdump &&
+      tcpdump -i end0 -l -n -C 10 -G 3600 -W 5 -w /data/tcpdump.pcap
+      "
+
+  vnstat:
+    image: alpine:3.19
+    container_name: vnstat
+    restart: unless-stopped
+    network_mode: host
+    cap_add:
+      - NET_ADMIN
+    volumes:
+      - ./data/vnstat:/var/lib/vnstat
+    command: >
+      sh -c "
+      apk add --no-cache vnstat &&
+      echo 'Interface \"end0\"' > /etc/vnstat.conf &&
+      vnstatd -n
+      "
+
+  arp-scanner:
+    build: ./arp-scanner
+    container_name: arp-scanner
+    restart: unless-stopped
+    network_mode: host
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    volumes:
+      - ./data:/data
